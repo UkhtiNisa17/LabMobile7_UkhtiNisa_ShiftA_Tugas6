@@ -1,0 +1,32 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>{{ folder }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">{{ folder }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <strong class="capitalize">{{ folder }}</strong>
+    <div id="card">
+      <ion-card>
+        <ion-card-header>
+          <ion-card-title>Nama: Ukhti Nisa</ion-card-title>
+          <ion-card-subtitle>NIM: H1D022011</ion-card-subtitle>
+        </ion-card-header>
+
+        <ion-card-content>
+          Latihan membuat app ionic, Praktikum Pemrograman Mobile Shift A.
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+</ion-content>
